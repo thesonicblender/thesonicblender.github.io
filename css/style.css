@@ -616,4 +616,30 @@ background-color: rgba(0, 33, 87, 0.5);
   .facebook_posts iframe{
     width: 100% !important;
   }
+  .title_inter{
+    text-align: center;
+  }
+/*  .grid-item{
+    width: 48% !important;
+    height: 200px;
+  }
+  .grid-item .overlay{
+    height: 200px !important;
+  }
+  .grid-item img{
+    height: 100%;
+    object-fit: cover;
+  }*/
+  .grid-item{
+    width: 100% !important;
+    height: 150px;
+  }
+  .grid-item img{
+    height: 150px;
+  }
+  ._2p3a {
+    width: 100% !important;
+}
+
+
 }
