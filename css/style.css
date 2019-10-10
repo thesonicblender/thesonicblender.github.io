@@ -593,3 +593,27 @@ background-color: rgba(0, 33, 87, 0.5);
   color: black;
   border: 2px solid #555555;
 }
+
+/*@media(max-width: 375px){
+  .grid-item.width-2{
+    width: 100%;
+  }
+}*/
+@media(max-width: 767px){
+  .grid{
+    max-width: 100%;
+  }
+  .all_grid_post {
+    overflow: hidden;
+  }
+  .inside_older_search ul{
+    display: inline-block;
+  }
+  .list{
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  .facebook_posts iframe{
+    width: 100% !important;
+  }
+}
