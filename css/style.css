@@ -393,7 +393,7 @@ background-color: rgba(0, 33, 87, 0.5);
 }
 .inside_older_search li a,
 .inside_older_search li{
-  font-size: 20px;
+  font-size: 15px;
 }
 }
 
@@ -640,6 +640,35 @@ background-color: rgba(0, 33, 87, 0.5);
   ._2p3a {
     width: 100% !important;
 }
+}
 
+.fb_mobile {
+    display: none;
+}
+.fb_desktop {
+    visibility: visible;
+}
 
+@media (max-width:376px) {
+    iframe {
+        width: 300px;
+    }
+    .fb_mobile {
+        display: block;
+    }
+    .fb_desktop {
+        display: none;
+    }
+}
+
+@media (max-width:321px) {
+    iframe {
+        width: 250px;
+    }
+    .fb_mobile {
+        display: block;
+    }
+    .fb_desktop {
+        display: none;
+    }
 }
