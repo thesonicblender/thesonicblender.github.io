@@ -646,7 +646,7 @@ background-color: rgba(0, 33, 87, 0.5);
     display: none;
 }
 .fb_desktop {
-    display: run-in;
+    display: grid;
 }
 
 @media (max-width:450px) {
@@ -654,7 +654,7 @@ background-color: rgba(0, 33, 87, 0.5);
         width: 300px;
     }
     .fb_mobile {
-        display: run-in;
+        display: grid;
     }
     .fb_desktop {
         display: none;
@@ -666,7 +666,7 @@ background-color: rgba(0, 33, 87, 0.5);
         width: 250px;
     }
     .fb_mobile {
-        display: run-in;
+        display: grid;
     }
     .fb_desktop {
         display: none;
