@@ -646,7 +646,7 @@ background-color: rgba(0, 33, 87, 0.5);
     display: none;
 }
 .fb_desktop {
-    visibility: visible;
+    display: block;
 }
 
 @media (max-width:376px) {
